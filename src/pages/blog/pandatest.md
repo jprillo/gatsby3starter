@@ -1,8 +1,7 @@
 ---
 title: "Sweet Pandas Eating Sweets"
 date: "2017-08-10"
-templateKey: test
-
+templateKey: blog-post
 ---
 
 Pandas are really sweet.
