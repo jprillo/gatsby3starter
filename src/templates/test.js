@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 export default function BlogPost({ data }) {
@@ -8,6 +9,7 @@ export default function BlogPost({ data }) {
     
       <div>
         <h1 style={{color: "red"}}>{post.frontmatter.title}</h1>
+        <GatsbyImage image={getImage(post.frontmatter.featuredImage)} width= "100px" alt="test data"/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
   
@@ -20,6 +22,11 @@ export const query = graphql`
       html
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(blurredOptions: {width: 200})
+          }
+        }
         
       }
     }
