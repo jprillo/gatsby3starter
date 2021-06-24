@@ -2,9 +2,6 @@ import * as React from "react"
 import { graphql } from "gatsby"
 
 
-
-
-// markup
 const IndexPage = ({data}) => {
   return (
     <main >
