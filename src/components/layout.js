@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './nav'
+
 import {StaticQuery, graphql, Link} from 'gatsby'
 
 
@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
  
 </div>
 ))}
-          <Nav></Nav>
+        
           <div
             style={{
               margin: '0 auto',
