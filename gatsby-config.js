@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: "Gatsby 3 Starter",
+    "menuLinks": [
+      {
+        "name": "HOME",
+        "link": "/"
+      },
+      {
+        "name": "ABOUT",
+        "link": "/page-2"
+      }
+    ]
   },
   plugins: [
     "gatsby-plugin-netlify-cms",

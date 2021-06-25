@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-
+import { Helmet } from 'react-helmet'
 
 
 export default function BlogPost({ data }) {
@@ -8,6 +8,7 @@ export default function BlogPost({ data }) {
   return (
     
       <div>
+        <Helmet title={post.frontmatter.title} defer={false} />
         <h1 style={{color: "red"}}>{post.frontmatter.title}</h1>
    
         <div dangerouslySetInnerHTML={{ __html: post.html }} />

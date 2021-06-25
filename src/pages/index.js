@@ -1,10 +1,16 @@
 import * as React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import { Helmet } from 'react-helmet'
+import Layout from '../components/layout.js'
+
+
 
 
 const IndexPage = ({data}) => {
   return (
     <main >
+      <Helmet title="Gatsby V3 Starter" defer={false} />
+      <Layout/>
       <title>Home Page</title>
       <h1>
         Gatsby. LET'S GOOOOOOOO!!!!!!!!       
@@ -14,18 +20,12 @@ const IndexPage = ({data}) => {
      
             <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
+
           <div key={node.id}>
-            <h3
-             
-            >
-              {node.frontmatter.title}{" "}
-              <span
-              
-              >
-                — {node.frontmatter.date}
-              </span>
-            </h3>
-            <p>{node.excerpt}</p>
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+         
+           
+           
           </div>
         ))}
 
@@ -35,10 +35,13 @@ const IndexPage = ({data}) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "blog-post"}}}) {
       totalCount
       edges {
         node {
+          fields {
+            slug
+          }
           id
           frontmatter {
             title
