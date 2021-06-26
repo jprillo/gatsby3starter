@@ -10,7 +10,7 @@ const IndexPage = ({data}) => {
   return (
     <main >
       <Helmet title="Gatsby V3 Starter" defer={false} />
-      <Layout/>
+      <Layout>
       <title>Home Page</title>
       <h1>
         Gatsby. LET'S GOOOOOOOO!!!!!!!!       
@@ -28,7 +28,7 @@ const IndexPage = ({data}) => {
            
           </div>
         ))}
-
+</Layout>
     </main>
   )
 }

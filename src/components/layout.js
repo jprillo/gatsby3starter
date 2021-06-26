@@ -1,6 +1,8 @@
 import React from 'react';
+import Navbar from './navbar.js'
+import Footer from './footer.js'
 
-import {StaticQuery, graphql, Link} from 'gatsby'
+import {StaticQuery, graphql} from 'gatsby'
 
 
 
@@ -25,26 +27,13 @@ const Layout = ({ children }) => (
       `}
       render={data => (
         <React.Fragment>
-   {data.allMarkdownRemark.edges.map(({ node }) => (
-
-<div key={node.id}>
-  <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-
- 
- 
-</div>
-))}
-        
-          <div
-            style={{
-              margin: '0 auto',
-              maxWidth: 960,
-              padding: '0px 1.0875rem 1.45rem',
-              paddingTop: 0,
-            }}
-          >
+   
+  <Navbar data={data}></Navbar>      
+          <div style={{minHeight: "80vh"}}>
             {children}
+            
           </div>
+          <Footer/>
         </React.Fragment>
       )}
     />
