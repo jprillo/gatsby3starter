@@ -10,14 +10,9 @@ collections:
     label: 'Blog'
     folder: 'src/pages/blog'
     create: true
-    slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
-    editor:
-      preview: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Template Key', name: 'templateKey', widget: 'string' }
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - { label: 'Body', name: 'body', widget: 'markdown' }
