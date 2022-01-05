@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby 3 Starter",
+    title: "Gatsby Minimum Starter",
     siteUrl: `https://gatsby3starter.netlify.app`,
     "menuLinks": [
       {
