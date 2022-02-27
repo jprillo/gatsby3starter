@@ -15,9 +15,9 @@ VYNTRADE has also developed numerous brand concepts from inception to market imp
 
 ## FOUNDERS​
 
-Daniel A Nelson
+**Daniel A Nelson**
 
-President & CEO – VYNTRADE LLC​
+**President & CEO – VYNTRADE LLC​**
 
 </br></br>
 
@@ -31,11 +31,11 @@ He then moved to the supplier side by working for Paterno Imports where he was p
 
 Dan then worked for several California wineries as East Coast Manager and National Sales Manager including EOS Estate Winery, Norman Vineyards and Castoro Cellars.​ Dan has over 30 years experience in brand marketing and national sales.​
 
-</br>
+</br></br>
 
-Steven M Rowland
+**Steven M Rowland**
 
-Founder and Managing Director– VYNTRADE LLC
+**Founder and Managing Director– VYNTRADE LLC**
 
 </br></br>
 
