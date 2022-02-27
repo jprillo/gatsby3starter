@@ -20,7 +20,6 @@ Daniel A Nelson
 President & CEO – VYNTRADE LLC​
 
 
-
 Dan started in the Adult Beverage Industry by working as a Restaurant Manager and Wine Steward at the world renowned Bern’s Steak House. He then moved to the distributor side of the business working for Premier Beverage in Orlando Florida calling on A-list white table cloth restaurants and the top retail accounts.​
 
 
@@ -30,7 +29,6 @@ He then moved to the supplier side by working for Paterno Imports where he was p
 
 
 Dan then worked for several California wineries as East Coast Manager and National Sales Manager including EOS Estate Winery, Norman Vineyards and Castoro Cellars.​ Dan has over 30 years experience in brand marketing and national sales.​
-
 
 
 Steven M Rowland
