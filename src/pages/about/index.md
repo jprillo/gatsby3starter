@@ -49,6 +49,4 @@ Steve started in the Adult Beverage Industry by working as a Hotel Food and Beve
 
 Steve has traveled extensively throughout Europe, South America and the United States, working closely with the winemaking teams to develop, successful private label and Vine to Wine Brands that are sold in the US.​ ​ Steve has over 30 years experience in brand marketing and National sales.​
 
-
-
 <!--EndFragment-->
