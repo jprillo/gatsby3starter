@@ -8,7 +8,7 @@ templateKey: main-pages
 
 I am a web developer. 
 
-I pretty much use a hammer for everything.
+I  use a hammer for everything.
 
 Here is my picture. 
 
