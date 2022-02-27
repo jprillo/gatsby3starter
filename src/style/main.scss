@@ -1,0 +1,604 @@
+@import "global/reset";
+@import "global/breakpoints";
+@import "global/colors";
+@import "global/typography";
+@import "global/flexbox";
+@import "components/navbar";
+
+
+section{
+  padding: 25%;
+  min-height:100vh;
+}
+body {
+  --bg: white;
+  --sbg: #ecf8ff;
+  --vbg: ##97CFED; 
+  --icon: yellow;
+  --iconv: 0 0 15px 5px orange;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: blue;
+  --hr: hsla(0, 0%, 0%, 0.2);
+  --ov: #ffffff; 
+  --ovText: black;
+
+  
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #230127;
+  --sbg: rgb(10, 0, 34);
+  --vbg: #1b0f0f;
+  --iconv: none;
+  --icon: #97cfed;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textTitle: white;
+  --textLink: yellow;
+  --hr: hsla(0, 0%, 100%, 0.2);
+  --ov: #1b0f0f;
+  --ovText: white;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 3em;
+  @include breakpoint(md){
+    flex-direction: row;
+  }
+
+}
+
+.index-portfolio{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  div{
+    width: 100%;
+   
+    margin: 2em 0;
+    
+  }
+  @include breakpoint(md){  
+    flex-direction: row;
+    div{
+      height: 250px;
+      width: 30vw;
+      margin: 2em;
+    }
+  }
+
+}
+.hero-image{
+    text-align:center;
+    padding: 0 14%;
+    @include breakpoint(md){
+      padding: 0;
+     
+     
+     
+      
+    }
+    
+  }
+  .hero-page{
+    padding: 10%  ;  
+    background-color: var(--bg); 
+  
+  @include breakpoint(md){
+    padding: 7% 14% ;
+    height: 90vh;
+  }
+  
+  }
+  .btn-margin{
+    margin: 1.7em 0;
+    @include breakpoint(md){
+   
+   margin: 2.2em 0;
+      
+   }
+  }
+  .primary-button{
+    background: white;
+    padding: .25em .75em; 
+    font-weight: bold;
+    font-size: 18px;
+   border: 3px solid $primary-color;
+    border-radius: 10px;  
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 500px 0 0 0;   
+    color: $primary-color;
+      
+    font-family: $primary-font;        
+    &:hover{
+        background: $secondary-color;   
+        color: white;  
+        
+        transition:.2s
+    }
+    &:active{
+        box-shadow: .08em .16em .08em rgba(0, 0, 0, 0.55);
+    }
+    @media (min-width: 1024px) {
+        font-size: 20px;
+      }
+  }
+
+  .secondary-button{
+    padding: .25em .75em; 
+   
+    font-size: 18px;
+   border: 3px solid white;
+    border-radius: 10px;  
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 500px 0 0 0;   
+    color: white;
+      
+    font-family: $primary-font;        
+    &:hover{
+        background: $secondary-color;     
+       
+        transition:.2s
+    }
+    &:active{
+        box-shadow: .08em .16em .08em rgba(0, 0, 0, 0.55);
+    }
+    @media (min-width: 1024px) {
+        font-size: 20px;
+      }
+  }
+
+.div-pad{
+  padding: 5% ;
+
+  @include breakpoint(md){
+   
+   padding: 2% 30% 8%;
+       
+    }
+
+ 
+}
+.list{
+ display: flex;
+flex-direction: column;
+height: auto;
+padding: 3em 1em;
+li{
+  font-size: 18px;
+}
+  @include breakpoint(md){
+    justify-content: center;
+    flex-direction: row;
+    height: 70vh;
+    padding: 1em 5%;
+    li{
+      font-size: 20px;
+    }
+    div{
+      padding: 0 5% 0 0 ;
+    }
+  }
+}
+
+.service-list{
+  min-height: 80vh;
+  ul{
+   list-style-type:circle;
+   li{
+    list-style-type:circle;
+   }
+  }
+}
+.pad{
+  padding: 0 10% 5%;
+  @include breakpoint(md){
+    padding: 0 20% 5%;
+  }
+}
+
+.pad2{
+  padding: 17vh 5% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include breakpoint(md){
+    padding: 20vh 20% 5%;
+  }
+}
+ .align-center{
+text-align: center;
+ }
+ .mission{
+  margin: 5% ;
+  padding: 6vh ;
+
+
+  @include breakpoint(md){
+   
+   margin: 15vh 30vw  5ch;
+       
+    }
+
+ } 
+footer{
+  text-align: center;
+ padding: 1em;
+ background-color: #33373a;
+ font-family: $primary-font;
+  a{
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+ 
+.main-card{
+  background: inherit;
+  box-shadow: 2px 2px black;
+  
+  border: 5px solid #97CFED;
+box-sizing: border-box;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  
+  padding: 15px 25px 20px;
+  text-align: center;
+  margin: 17px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  p{ 
+    font-size: 20px;
+  padding: 0 2%;    
+  }
+  h5{
+   text-align: center;
+  }
+  
+  @include breakpoint(md){
+    margin:17px;
+    width: 30%;
+  height: 380px;
+  }
+
+  
+  img{
+    margin: 0 0 10px 0;
+    width: 20%;
+    @include breakpoint(md){
+      
+      width: 100px;
+    }
+  }
+  
+ 
+  
+  }
+
+  
+.card-container{
+  text-align: center;
+  background: var(--bg);
+  padding:80px 10%;
+ 
+}
+
+.fix{
+  padding-top: 6px;
+}
+
+.justify-center{
+justify-content: center;
+}
+.overlay{
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  top: 0; 
+  left: 0; 
+  background: var(--ov); 
+  opacity: .90;
+ 
+}
+.blog-article:hover .overlay{
+  opacity: .8;
+}
+.blog-article{
+  margin:0;
+  padding: 5px;
+  border: solid 5px $accent-color;
+  position: relative;
+   padding: 5px;
+    height: 280px;  
+    background-repeat: no-repeat;
+     background-position: center;
+  h3{
+    color: var(--ovText);
+    font-size: 40px;
+    padding: 50px 0 0 ;
+  }
+  p{
+    padding: 0 50px
+  }
+  @include breakpoint(md){
+    margin:50px 10px 0px;
+
+  }
+}
+.article{
+  padding: 0 10%;
+  margin: 0 0 100px;
+  h3{
+    padding-bottom: 1.5em;
+    
+  }
+
+  @include breakpoint(md){
+   width: 80%;
+   margin: 0 auto 100px;
+  }
+
+}
+.blog-date{
+  padding-bottom: 1.5em ;
+  font-size: 14px;
+  color: $primary-color;
+
+  @include breakpoint(md){
+   width: 80%;
+  
+   font-size: 18px;
+   
+  }
+}
+
+.blog-wrap{
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 60px;
+}
+
+
+.reverse{
+  flex-direction: column-reverse;
+  @include breakpoint(md){
+   flex-direction: row;
+  }
+}
+
+.add-pad{
+  @include breakpoint(md){
+  padding: 60px 10%;
+
+   }
+}
+
+.portfolio-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  min-height: 80vh;
+  @include breakpoint(md){
+    flex-direction: row;
+  }
+  div {
+    width: 100%;
+      margin: 50px 0;
+    @include breakpoint(md){
+      width: 50%;
+      margin: 50px 0;
+    }
+    
+  }
+}
+
+.about-image{
+display: none;
+  @include breakpoint(md){
+    display: block;
+   
+  }
+}
+
+.about-description{
+  padding: 12% ;
+}
+.about{
+  display: flex;
+  flex-direction: column-reverse;
+  @include breakpoint(md){
+    flex-direction: row;
+}
+  div{
+    width: 100%;
+    @include breakpoint(md){
+      width: 50%;
+  }
+  }
+}
+.about-pad{
+  @include breakpoint(md){
+    padding:  20%;
+}
+}
+
+label{
+  font-family: $primary-font;
+}
+
+.social-media {
+  h5{
+    margin: 5%;
+    @include breakpoint(md){
+    margin: 0 0 5% 0;
+    
+       }
+
+  }
+
+a{
+margin: 0 10px;
+}
+
+}
+
+
+.social-icon{
+  hover{
+    fill: $accent-color;
+  }
+}
+
+.form-btn{
+padding: .5em 1em;
+background: $primary-color;
+color: white;
+font-family: $primary-font;
+font-weight: 700;
+&:hover{
+  background-color: $secondary-color;
+}
+}
+
+form{
+  text-align: center;
+  color: var(--textNormal);
+  padding-bottom: 3em;
+  
+ 
+  label{
+    font-family: $primary-font;
+    @include breakpoint(md){
+      margin-right: 1.5em;
+      text-align: left;
+    }
+    
+  }
+}
+.field{
+  margin: 1em 0;
+  text-align: left;
+ 
+  @include breakpoint(md){
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 5em;
+}
+}
+.blog-wrap{
+  background: var(--bg);
+}
+.secondary-back, article, .light-back1, .blog-article{
+  background: var(--bg);
+}
+p, h4, h5, .formal{
+ color: var(--textNormal);
+}
+.checkbox{
+  width: 23px;
+  height: 21px;
+  background-color: #97CFED;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  background-color: var(--icon);
+  box-shadow: var(--iconv);
+  @include breakpoint(md){
+  margin: 0;
+  }
+}
+
+/* On mouse-over, add a grey background color */
+
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: var(--icon);
+  box-shadow: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: var(--icon);
+  
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.banner{
+  
+  padding: 10%  ;  
+  background-color: var(--bg); 
+  h3{
+    font-size: 25px;
+    @include breakpoint(md){
+      font-size: 35px;
+    }
+  }
+
+@include breakpoint(md){
+  padding: 7% 14% ;
+
+}
+}
+
+.contact-input{
+  font-family: $primary-font;
+ font-size: 20px;
+ 
+
+}
