@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
-import Layout from '../components/layout.js'
+import Layout from '../components/layout2.js'
 import background from '../images/hero-background.png'
 import "../style/main.scss"
 
