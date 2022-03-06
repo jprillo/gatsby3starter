@@ -5,7 +5,7 @@ templateKey: main-pages
 ---
 <!--StartFragment-->
 
-VYNTRADE was founded in 2018 to offer consulting to Wine & Spirit Industry Companies.​ VYNTRADE has helped producers find the ‘Route to Market’ most appropriate for their business.​
+VYNTRADE was founded in 2018 to provide our Trade partners a ‘Vineyard to Trade’, Direct Wine Program.  Additionally, Vyntrade offers consulting services for producers that have a desire to penetrate the US Adult Beverage Market.
 
 </br>
 
@@ -17,7 +17,7 @@ VYNTRADE has also developed numerous brand concepts from inception to market imp
 
 **Daniel A Nelson**
 
-**President & CEO – VYNTRADE LLC​**
+**Founder and President-VYNTRADE LLC​**
 
 </br></br>
 
