@@ -7,15 +7,13 @@ templateKey: main-pages
 
 We provide complete wine solution and distribution/marketing platform.
 
-
-
 * Strong ﬁnancial backing.
-* Ability to source wine globally through our own wine growers.
-* Manage and develop a portfolio of key brands as well as activities (bottling, grands crus & rare wines).
-* USA distribution platform, from Import to Compliance and Warehousing. Wholesalers in NY, Florida and 10 additional States, with plans to build additional Distribution Centers in Major States.
-* Worldwide distribution platform to facilitate clients needs. Increase efﬁciency and develop Economies of Scale, Branding practices and Synergies. We work closely with our clients to develop customized wine programs, premium brands, speciﬁc wine brand concept or curated listings.
-* Provide a Roadmap and timeline to bringing your Label to market.
-
-
+* Long-Standing Trade and producer relationships 
+* Ability to source wine globally through our own Estate and winegrower Network
+* Proof of concept in bringing Private label brands that exceed quality and profitability expectations.
+* USA distribution platform, from Import to Compliance, Wholesale and Warehousing. Regional and National wholesaler relationships that match, Trade partner needs.
+* Economies of Scale and our streamlined approach, provides maximum quality and profitability standards for our Trade partners.  We work closely with our clients to develop customized wine programs.
+* Provide a Roadmap and timeline to bringing your Label to market.  ‘Turnkey approach, with a Tailor made execution.’
+* Develop marketing concepts, with our clients, so as to have strong sell-thru and long term brand building.  
 
 <!--EndFragment-->
