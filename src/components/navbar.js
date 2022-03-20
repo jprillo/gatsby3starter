@@ -29,6 +29,7 @@
                               <li><Link to="/services/" activeStyle={activeStyle} className="hack">Services</Link></li>
                               <li><Link to="/portfolio/" activeStyle={activeStyle} className="hack">Portfolio</Link></li>
                               <li><Link to="/clients/" activeStyle={activeStyle} className="hack">Clients</Link></li>
+                              <li><Link to="/press/" activeStyle={activeStyle} className="hack">Press</Link></li>
                               <li><Link to="/contact/" activeStyle={activeStyle} className="hack">Contact</Link></li>
                              
                        

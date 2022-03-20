@@ -4,6 +4,7 @@ import wineone from '../images/Pres VynTrade + Molinos-07.jpg'
 import winetwo from '../images/Pres VynTrade + Molinos-08.jpg'
 import winethree from '../images/Pres VynTrade + Molinos-09.jpg'
 import winefour from '../images/Pres VynTrade + Molinos-10.jpg'
+import winefive from '../images/Slide1.jpg'
 import { Helmet } from 'react-helmet'
 
 export default function Portfolio() {
@@ -31,6 +32,10 @@ export default function Portfolio() {
 
   <div>
      <img width = "100%" src={winefour} alt="wineone"/>
+  </div>
+
+  <div>
+     <img width = "100%" src={winefive} alt="wineone"/>
   </div>
 
 
