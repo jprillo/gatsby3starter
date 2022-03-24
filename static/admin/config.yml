@@ -23,3 +23,12 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "main-pages"}
       - { label: 'Body', name: 'body', widget: 'markdown' } 
+  - name: 'index'
+    label: 'Index'
+    folder: 'src/pages/index'
+    create: false
+    fields:
+      - { label: 'Mission', name: 'mission', widget: 'string' }
+      - { label: 'About', name: 'about', widget: 'string' }
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "main-pages"}
+      
