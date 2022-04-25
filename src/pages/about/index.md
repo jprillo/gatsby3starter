@@ -5,11 +5,11 @@ templateKey: main-pages
 ---
 <!--StartFragment-->
 
-VYNTRADE was founded in 2018 to provide our Trade partners a ‘Vineyard to Trade’, Direct Wine Program.  Additionally, Vyntrade offers consulting services for producers that have a desire to penetrate the US Adult Beverage Market.
+**VYNTRADE** was founded in 2018 to provide our Trade partners a ‘Vineyard to Trade’, Direct Wine Program.  Additionally, **Vyntrade** offers consulting services for producers that have a desire to penetrate the US Adult Beverage Market.
 
 </br>
 
-VYNTRADE has also developed numerous brand concepts from inception to market implementation.​ VYNTRADE has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distribution Platform.
+**VYNTRADE** has also developed numerous brand concepts from inception to market implementation.​ **VYNTRADE** has evolved to offer a ‘Vineyard to Trade’ Direct Wine Sales Distribution Platform.
 
 </br></br>
 
