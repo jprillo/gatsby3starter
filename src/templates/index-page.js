@@ -22,7 +22,7 @@ export default function Home({ data }) {
       </Helmet>
   <Layout>
     <div className="hero" style={{textAlign: "center", backgroundImage: "url(" + background + ")"}}>
-   <h1 className="hero-head">VINEYARD TO TRADE</h1>
+   <h1 className="hero-head">{home.frontmatter.title}</h1>
    <div className="align-center mission" style ={{background: "white"}}>
       <h2>Our Mission</h2>
       <p>{home.frontmatter.mission}</p>
