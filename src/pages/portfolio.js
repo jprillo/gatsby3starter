@@ -33,8 +33,9 @@ export default function Portfolio() {
   <div>
      <img width = "100%" src={winefour} alt="wineone"/>
   </div>
-
-  <div>
+ 
+  <div style={{display: "flex", flexDirection: "column"}}>
+  <h2 style={{color: "green", textAlign: "center"}}>Organic</h2> <br/>
      <img width = "100%" src={winefive} alt="wineone"/>
   </div>
 
